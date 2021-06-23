@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classroom scheduler</title>
+    <link rel="stylesheet" href="scheduler.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>School Of Coding</h1>
+    </nav>
+    <section id="scheduler">
+        <h1>Class Scheduler(June 2021)</h1>
+        <div id="bod">
+        <div id="filters">
+        <div id="teacherfilter" >
+            <label for="teacher" >Select Teacher</label>
+            <select name="teachername" id="teacher">
+                
+                <option class="opt" value="A">A</option>
+                <option class="opt" value="B">B</option>
+                <option class="opt" value="C">C</option>
+            </select>
+        </div>
+        <div id="datefilter">
+            <label for="date"> Date </label>
+            <select name="date" id="dates">
+                
+            </select>
+        </div>
+        <div id="slotfilter"> 
+            <label for="slot"> Slot </label>
+            <select name="slot" id="slots">
+                <option class="opt" value="i">10:00am-12:00pm</option>
+                <option class="opt" value="ii">12:00pm-2:00pm</option>
+                <option class="opt" value="iii">2:00pm-4:00pm</option>
+            </select>
+        </div>
+        
+        <div id="filbtn"><button class="btn" id="filterbtn">Set</button></div>
+    </div>  
+    <div id="calendar">
+
+    </div>
+</div>
+    </section>
+    
+<script src="scheduler.js"></script>
+</body>
+</html>
